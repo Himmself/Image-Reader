@@ -1,0 +1,41 @@
+run
+help
+name
+about
+poop
+exit
+show name
+name
+set name := "Image-looker"
+name
+libraryDependencies
+set name := "Image-Reader"
+settings -V
+tasks
+exit
+name
+help
+run
+exit
+run
+set name "Mongo-Database"
+set name := "Mongo-Database"
+exit
+name
+set name := "Mongo-Database"
+run
+exit
+run
+exit
+run
+exit
+run
+exit
+run
+evicted
+run
+exit
+run
+compile
+exit
+run

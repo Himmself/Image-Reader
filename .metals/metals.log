@@ -1,0 +1,456 @@
+INFO  started: Metals version 0.8.1 in workspace 'D:\Programming Projects\Github\Image-Reader'
+INFO  time: initialize in 0.76s
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\Hello.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\Hello.scala
+INFO  no build target: using presentation compiler with only scala-library
+Mar 15, 2020 3:06:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.base/java.lang.StringLatin1.charAt(StringLatin1.java:47)
+	at java.base/java.lang.String.charAt(String.java:693)
+	at scala.collection.immutable.StringOps$.apply$extension(StringOps.scala:41)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.lastIndexBetween(MetalsEnrichments.scala:411)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.pipeInScope(MultilineStringFormattingProvider.scala:86)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.$anonfun$withToken$1(MultilineStringFormattingProvider.scala:131)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+something's wrong: no file:///d%3A/Programming%20Projects/Github/Image-Reader/image-reader/src/main/scala/example/Hello.scala in Array[<error>]RangePosition(file:///d%3A/Programming%20Projects/Github/Image-Reader/image-reader/src/main/scala/example/Hello.scala, 37, 37, 52)
+something's wrong: no file:///d%3A/Programming%20Projects/Github/Image-Reader/image-reader/src/main/scala/example/Hello.scala in Array[<error>]RangePosition(file:///d%3A/Programming%20Projects/Github/Image-Reader/image-reader/src/main/scala/example/Hello.scala, 37, 37, 45)
+something's wrong: no file:///d%3A/Programming%20Projects/Github/Image-Reader/image-reader/src/main/scala/example/Hello.scala in Array[<error>]RangePosition(file:///d%3A/Programming%20Projects/Github/Image-Reader/image-reader/src/main/scala/example/Hello.scala, 37, 37, 46)
+something's wrong: no file:///d%3A/Programming%20Projects/Github/Image-Reader/image-reader/src/main/scala/example/Hello.scala in Array[<error>]RangePosition(file:///d%3A/Programming%20Projects/Github/Image-Reader/image-reader/src/main/scala/example/Hello.scala, 37, 37, 48)
+something's wrong: no file:///d%3A/Programming%20Projects/Github/Image-Reader/image-reader/src/main/scala/example/Hello.scala in Array[String]RangePosition(file:///d%3A/Programming%20Projects/Github/Image-Reader/image-reader/src/main/scala/example/Hello.scala, 37, 37, 50)
+something's wrong: no file:///d%3A/Programming%20Projects/Github/Image-Reader/image-reader/src/main/scala/example/Hello.scala in Array[String]RangePosition(file:///d%3A/Programming%20Projects/Github/Image-Reader/image-reader/src/main/scala/example/Hello.scala, 37, 37, 50)
+something's wrong: no file:///d%3A/Programming%20Projects/Github/Image-Reader/image-reader/src/main/scala/example/Hello.scala in Array[String]RangePosition(file:///d%3A/Programming%20Projects/Github/Image-Reader/image-reader/src/main/scala/example/Hello.scala, 37, 37, 50)
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\Hello.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+something's wrong: no file:///d%3A/Programming%20Projects/Github/Image-Reader/image-reader/src/main/scala/example/main.scala in Array[String]RangePosition(file:///d%3A/Programming%20Projects/Github/Image-Reader/image-reader/src/main/scala/example/main.scala, 133, 133, 146)
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+Mar 16, 2020 3:09:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.base/java.lang.StringLatin1.charAt(StringLatin1.java:47)
+	at java.base/java.lang.String.charAt(String.java:693)
+	at scala.collection.immutable.StringOps$.apply$extension(StringOps.scala:41)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.lastIndexBetween(MetalsEnrichments.scala:411)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.pipeInScope(MultilineStringFormattingProvider.scala:86)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.$anonfun$withToken$1(MultilineStringFormattingProvider.scala:131)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+something's wrong: no file:///d%3A/Programming%20Projects/Github/Image-Reader/image-reader/src/main/scala/example/main.scala in Array[<error>]RangePosition(file:///d%3A/Programming%20Projects/Github/Image-Reader/image-reader/src/main/scala/example/main.scala, 61, 61, 76)
+something's wrong: no file:///d%3A/Programming%20Projects/Github/Image-Reader/image-reader/src/main/scala/example/main.scala in Array[<error>]RangePosition(file:///d%3A/Programming%20Projects/Github/Image-Reader/image-reader/src/main/scala/example/main.scala, 61, 61, 69)
+something's wrong: no file:///d%3A/Programming%20Projects/Github/Image-Reader/image-reader/src/main/scala/example/main.scala in Array[<error>]RangePosition(file:///d%3A/Programming%20Projects/Github/Image-Reader/image-reader/src/main/scala/example/main.scala, 61, 61, 70)
+something's wrong: no file:///d%3A/Programming%20Projects/Github/Image-Reader/image-reader/src/main/scala/example/main.scala in Array[<error>]RangePosition(file:///d%3A/Programming%20Projects/Github/Image-Reader/image-reader/src/main/scala/example/main.scala, 61, 61, 72)
+something's wrong: no file:///d%3A/Programming%20Projects/Github/Image-Reader/image-reader/src/main/scala/example/main.scala in Array[String]RangePosition(file:///d%3A/Programming%20Projects/Github/Image-Reader/image-reader/src/main/scala/example/main.scala, 61, 61, 74)
+something's wrong: no file:///d%3A/Programming%20Projects/Github/Image-Reader/image-reader/src/main/scala/example/main.scala in Array[String]RangePosition(file:///d%3A/Programming%20Projects/Github/Image-Reader/image-reader/src/main/scala/example/main.scala, 61, 61, 74)
+something's wrong: no file:///d%3A/Programming%20Projects/Github/Image-Reader/image-reader/src/main/scala/example/main.scala in Array[String]RangePosition(file:///d%3A/Programming%20Projects/Github/Image-Reader/image-reader/src/main/scala/example/main.scala, 61, 61, 74)
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+Mar 16, 2020 4:23:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.base/java.lang.StringLatin1.charAt(StringLatin1.java:47)
+	at java.base/java.lang.String.charAt(String.java:693)
+	at scala.collection.immutable.StringOps$.apply$extension(StringOps.scala:41)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.lastIndexBetween(MetalsEnrichments.scala:411)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.pipeInScope(MultilineStringFormattingProvider.scala:86)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.$anonfun$withToken$1(MultilineStringFormattingProvider.scala:131)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Mar 16, 2020 5:02:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.base/java.lang.StringLatin1.charAt(StringLatin1.java:47)
+	at java.base/java.lang.String.charAt(String.java:693)
+	at scala.collection.immutable.StringOps$.apply$extension(StringOps.scala:41)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.lastIndexBetween(MetalsEnrichments.scala:411)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.pipeInScope(MultilineStringFormattingProvider.scala:86)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.$anonfun$withToken$1(MultilineStringFormattingProvider.scala:131)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+INFO  started: Metals version 0.8.1 in workspace 'D:\Programming Projects\Github\Image-Reader'
+INFO  time: initialize in 1.34s
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+INFO  no build target: using presentation compiler with only scala-library
+Mar 20, 2020 12:02:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.base/java.lang.StringLatin1.charAt(StringLatin1.java:47)
+	at java.base/java.lang.String.charAt(String.java:693)
+	at scala.collection.immutable.StringOps$.apply$extension(StringOps.scala:41)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.lastIndexBetween(MetalsEnrichments.scala:411)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.pipeInScope(MultilineStringFormattingProvider.scala:86)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.$anonfun$withToken$1(MultilineStringFormattingProvider.scala:131)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Mar 20, 2020 12:02:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.base/java.lang.StringLatin1.charAt(StringLatin1.java:47)
+	at java.base/java.lang.String.charAt(String.java:693)
+	at scala.collection.immutable.StringOps$.apply$extension(StringOps.scala:41)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.lastIndexBetween(MetalsEnrichments.scala:411)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.pipeInScope(MultilineStringFormattingProvider.scala:86)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.$anonfun$withToken$1(MultilineStringFormattingProvider.scala:131)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+Mar 20, 2020 12:02:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.base/java.lang.StringLatin1.charAt(StringLatin1.java:47)
+	at java.base/java.lang.String.charAt(String.java:693)
+	at scala.collection.immutable.StringOps$.apply$extension(StringOps.scala:41)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.lastIndexBetween(MetalsEnrichments.scala:411)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.pipeInScope(MultilineStringFormattingProvider.scala:86)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.$anonfun$withToken$1(MultilineStringFormattingProvider.scala:131)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\image-reader\src\main\scala\example\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\example\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'D:\Programming Projects\Github\Image-Reader'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: D:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala

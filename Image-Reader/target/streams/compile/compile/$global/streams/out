@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0mD:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala:18:62: ')' expected but '.' found.[0m
+[0m[[0m[31merror[0m] [0m[0m      println("Photo size is ", photo1.getWidth, " x " photo1.getHeight)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\Programming Projects\Github\Image-Reader\Image-Reader\src\main\scala\main.scala:19:52: ';' expected but ')' found.[0m
+[0m[[0m[31merror[0m] [0m[0m      println("Photo data is " + photo1.getSource())[0m
+[0m[[0m[31merror[0m] [0m[0m                                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
